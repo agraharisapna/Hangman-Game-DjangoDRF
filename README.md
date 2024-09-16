@@ -1,9 +1,12 @@
 #Hangman Game API
 
+
 ** Overview **
+
 This API allows you to play a Hangman game. You can start a new game, check the state of the game, and make guesses. The API is built using Django and Django REST Framework.
 
 Endpoints
+
     1. Start a New Game
     Endpoint: /game/new
     Method: POST
@@ -84,6 +87,7 @@ Methods
     - is_won(): Checks if the game is won based on guessed letters.
 
 ** Setup ** 
+
     Clone the repository.
     Install dependencies: pip install -r requirements.txt.
     Apply migrations: python manage.py migrate.
